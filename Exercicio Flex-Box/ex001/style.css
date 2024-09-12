@@ -1,0 +1,6 @@
+.navegacao{
+    /* A propriedade display: flex no CSS define como um item será posicionado dentro de seu container. Quando aplicada a um elemento, esse elemento se torna um flex container, permitindo a manipulação dos elementos filhos com novas propriedades específicas para flex containers*/
+    display: flex;
+    /*A propriedade justify-content no CSS é usada para alinhar elementos em um container flexível ao longo do eixo principal. Ela permite organizar elementos em um layout responsivo, garantindo que fiquem alinhados independentemente do tamanho da tela. Por exemplo, se você definir justify-content: center, os elementos serão centralizados horizontalmente no container*/
+    justify-content: space-between;
+}

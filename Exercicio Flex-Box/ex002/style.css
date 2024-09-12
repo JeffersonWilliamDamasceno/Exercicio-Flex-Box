@@ -1,0 +1,17 @@
+.pai-dos-itens {
+    display: flex;
+    gap: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+.pai-dos-itens .produto img {
+    width: 100px;
+}
