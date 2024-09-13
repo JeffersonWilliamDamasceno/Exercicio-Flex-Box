@@ -1,0 +1,50 @@
+
+/*Um seletor CSS é a parte de uma regra CSS que define quais elementos HTML serão estilizados. Ele informa ao navegador quais elementos devem ser selecionados para aplicar os valores de propriedade CSS especificados1.
+
+Existem vários tipos de seletores CSS, incluindo:
+
+Seletor de elemento: seleciona todos os elementos de um tipo específico, como p ou h1.
+Seletor de classe: seleciona elementos com uma classe específica, usando um ponto (.) seguido pelo nome da classe, como .minha-classe.
+Seletor de ID: seleciona um elemento com um ID específico, usando um cerquilha (#) seguido pelo nome do ID, como #meu-id.
+Seletor universal: seleciona todos os elementos, usando um asterisco (*).
+Seletor de atributo: seleciona elementos com um atributo específico ou com um valor específico para um atributo, como [type="text"].
+Esses seletores permitem que você aplique estilos de forma precisa e eficiente aos elementos da sua página web.*/
+.container {
+
+    /*O display: flex é uma propriedade do CSS que permite criar layouts flexíveis e responsivos. Quando aplicada a um elemento pai (ou contêiner), todos os elementos filhos dentro desse contêiner são organizados em um sistema de linhas ou colunas
+    Aqui estão alguns conceitos básicos:
+
+    Flex Container: O elemento pai ao qual você aplica display: flex.
+    Flex Items: Os elementos filhos dentro do flex container.
+    Eixo Principal e Eixo Transversal: O eixo principal é definido pela propriedade flex-direction e pode ser horizontal (row) ou vertical (column). O eixo transversal é perpendicular ao eixo principal1.
+
+    Propriedades Comuns do Flexbox
+    flex-direction: Define a direção dos itens no contêiner (e.g., row, column).
+    justify-content: Alinha os itens ao longo do eixo principal (e.g., flex-start, center, space-between).
+    align-items: Alinha os itens ao longo do eixo transversal (e.g., flex-start, center, stretch).
+    flex-wrap: Define se os itens devem quebrar para uma nova linha ou coluna quando não cabem no contêiner (e.g., nowrap, wrap).*/
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: normal;    
+}
+
+.container .produto {
+    width: 300px;
+    background-color: rgb(189, 189, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.container .produto img {
+    width: 100px;
+}
+
+.container .produto button {
+    display: flex;
+    margin: auto;
+}
